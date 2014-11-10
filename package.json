@@ -1,0 +1,19 @@
+{
+	"name" : "frontend-testing",
+	"version" : "0.0.1",
+	"description" : "unit testing frontend applications with jasmine, squirejs and karma",
+	"bugs" : {
+		"url" : "http://github.com/ghudiczius/docs-frontend-testing/issues",
+		"email" : "frontend-testing-bugs@jmk.hu"
+	},
+	"license" : "WTFPL",
+	"author" : {
+		"name" : "Gabor Hudiczius",
+		"email" : "gabor@jmk.hu",
+		"url" : "http://jmk.hu/"
+	},
+	"repository" : {
+		"type" : "git",
+		"url" : "https://github.com/ghudiczius/docs-frontend-testing"
+	}
+}
