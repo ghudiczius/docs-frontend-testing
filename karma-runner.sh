@@ -3,18 +3,16 @@ export KARMA_BIN=karma
 
 usage() {
 	echo "Usage: karma.bat {install|run|start}"
-	echo "Requires Node.js [nodejs.org]"
 	echo "Parameters:"
-	echo "  install: installs required modules"
-	echo "  run: executes the tests once, generates coverage report"
-	echo "  start: starts up karma, watches files and executes tests if anything has changed"
+	echo "  install: installs karma runner and package prerequisites"
+	echo "  run: executes test specs once and generates coverage report"
+	echo "  start: starts karma and watches files for changes. if any of the watched files change executes test specs"
 }
 
 install() {
 	echo "Installing Karma..."
 	npm install
 	npm install -g karma-cli
-	echo "Karma has been installed."
 }
 
 run() {
@@ -23,7 +21,7 @@ run() {
 }
 
 start() {
-	echo "Starting up Karma..."
+	echo "Starting Karma..."
 	$KARMA_BIN start conf/karma.conf.js
 }
 

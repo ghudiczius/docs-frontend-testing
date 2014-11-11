@@ -7,18 +7,16 @@ if "%1" == "run" goto run
 
 :usage
 echo "Usage: karma.bat {install^|run^|start^}"
-echo "Requires Node.js [nodejs.org]"
 echo "Parameters:"
-echo "  install: installs required modules"
-echo "  run: executes the tests once, generates coverage report"
-echo "  start: starts up karma, watches files and executes tests if anything has changed"
+echo "  install: installs karma runner and package prerequisites"
+echo "  run: executes test specs once and generates coverage report"
+echo "  start: starts karma and watches files for changes. if any of the watched files change executes test specs"
 goto end
 
 :install
 echo Installing Karma...
 call npm install
 call npm install -g karma-cli
-echo Karma has been installed.
 goto end
 
 :run
