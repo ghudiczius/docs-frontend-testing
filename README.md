@@ -2,6 +2,11 @@
 
 Unit testing frontend applications with jasmine, squirejs and karma.
 
+* [Prerequisites](#prerequisites "jump to prerequisites")
+* [Installation](#installation "jump to installation information")
+* [Usage](#usage "jump to usage information")
+* [Version](#version "jump to version information")
+
 ## Prerequisites ##
 
 * [nodejs](http://nodejs.org/ "download nodejs")
