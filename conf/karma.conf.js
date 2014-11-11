@@ -1,3 +1,5 @@
+'use strict';
+
 // Karma configuration
 // Generated on Mon Nov 10 2014 20:28:18 GMT+0100 (Central Europe Standard Time)
 
@@ -16,9 +18,11 @@ module.exports = function(config) {
 				pattern : 'apps/**/*.js',
 				included : false
 			}, {
-				pattern : 'test/**/*Spec.js',
+				pattern : 'test/**/*-spec.js',
 				included : false
-			}
+			},
+			'node_modules/angular/angular.js',
+			'node_modules/angular-mocks/angular-mocks.js'
 		],
 
 		// list of files to exclude

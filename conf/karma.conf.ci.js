@@ -1,3 +1,5 @@
+'use strict';
+
 var baseConfig = require('./karma.conf.js');
 
 module.exports = function(config) {
@@ -8,7 +10,7 @@ module.exports = function(config) {
 	config.set({
 		frameworks : ['jasmine', 'requirejs'],
 		preprocessors : {
-			'test/**/*Spec.js' : ['coverage']
+			'test/**/*-spec.js' : ['coverage']
 		},
 		coverageReporter : {
 			reporters : [{

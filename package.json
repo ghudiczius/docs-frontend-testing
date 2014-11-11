@@ -17,6 +17,8 @@
 		"url" : "https://github.com/ghudiczius/docs-frontend-testing"
 	},
 	"devDependencies" : {
+		"angular" : "^1.3.2",
+		"angular-mocks" : "^1.3.2",
 		"karma" : "^0.12.24",
 		"karma-coverage" : "^0.2.6",
 		"karma-jasmine" : "^0.2.3",
