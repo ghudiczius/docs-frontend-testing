@@ -20,9 +20,16 @@ module.exports = function(config) {
 			}, {
 				pattern : 'test/**/*-spec.js',
 				included : false
-			},
-			'node_modules/angular/angular.js',
-			'node_modules/angular-mocks/angular-mocks.js'
+			}, {
+				pattern : 'node_modules/angular/angular.js',
+				included : false
+			}, {
+				pattern : 'node_modules/angular-mocks/angular-mocks.js',
+				included : false
+			}, {
+				pattern : 'node_modules/squirejs/src/Squire.js',
+				included : false
+			}
 		],
 
 		// list of files to exclude

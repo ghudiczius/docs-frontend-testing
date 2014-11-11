@@ -1,9 +1,9 @@
 'use strict';
 
-define(['xkcdRandom'], function(xkcdRandom) { 
+define(['random'], function(random) {
 	return {
 		getRandomNumberAndDoubleIt: function getRandomNumber() {
-			return xkcdRandom.getRandomNumber() * 2;
+			return random.getRandomNumber() * 2;
 		}
-	}	
+	}
 });
