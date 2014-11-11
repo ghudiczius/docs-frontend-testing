@@ -1,4 +1,4 @@
-# docs-frontend-testing - 0.0.1 #
+# docs-frontend-testing #
 
 Unit testing frontend applications with jasmine, squirejs and karma.
 
@@ -15,3 +15,7 @@ Unit testing frontend applications with jasmine, squirejs and karma.
 
 * Run `karma-runner.{cmd|sh} run` to run the specs one and to generate coverage report. Coverage reports can be found under the *coverage* directory.
 * Run `karma-runner.{cmd|sh} run` to start karma and watch for changes. If any of the watched files change the specs are run.
+
+## Version ##
+
+0.0.1
