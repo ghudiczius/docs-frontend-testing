@@ -18,4 +18,19 @@ Unit testing frontend applications with jasmine, squirejs and karma.
 
 ## Version ##
 
-0.0.1
+### 0.0.2 ###
+
+* * Added modules to test the visibility of callback functions in tests on angular directives
+* - 2014. 11. 10.
+
+### 0.0.1 ###
+
+* * Initial version
+* - 2014. 11. 11.
+
+### Legend ###
+
+* * New feature 
+* + Minor update 
+* x Bugfix 
+* - Information
