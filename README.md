@@ -1,4 +1,4 @@
-# docs-frontend-testing #
+# frontend-testing #
 
 Unit testing frontend applications with jasmine, squirejs and karma.
 
