@@ -72,7 +72,7 @@ define(['random'], function(random) {
 
 			it('should throw an error', function () {
 				expect(function() {
-					random.getRandomNumber()
+					random.getRandomNumber();
 				}).toThrowError('Error');
 			});
 		});
